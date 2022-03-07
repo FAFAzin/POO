@@ -1,4 +1,4 @@
-package com.dio.bootcamp.polimorfismo;
+package com.dio.bootcamp.upcastdowncast;
 
 public class RodarCodigo {
     public static void main(String[] args) {
