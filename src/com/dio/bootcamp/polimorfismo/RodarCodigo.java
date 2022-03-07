@@ -11,6 +11,6 @@ public class RodarCodigo {
         Funcionario faxineiro = new Faxineiro();
 
         //Downcast
-        Vendedor vendedor = (Vendedor) new Funcionario();
+        Vendedor vendedor2 = (Vendedor) new Funcionario();
     }
 }
