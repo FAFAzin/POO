@@ -1,6 +1,7 @@
 package com.dio.bootcamp.oo;
 
 public class Carro {
+    //atributos
     String cor;
     String modelo;
     int capacidadeTanque;
@@ -10,9 +11,9 @@ public class Carro {
    -  O método vem depois dos getters and setters
      */
 
-    Carro(){
+    Carro(){ // construtor comum
 
-    }
+    } //sobrecarga
     Carro(String cor, String modelo, int capacidadeTanque){
         this.cor = cor;
         this.modelo = modelo;
@@ -20,7 +21,7 @@ public class Carro {
 
     }
 
-
+    // getters and setters
     public String getCor() {
         return cor;
     }
@@ -44,7 +45,7 @@ public class Carro {
     public void setCapacidadeTanque(int capacidadeTanque) {
         this.capacidadeTanque = capacidadeTanque;
     }
-
+    // método
     double totalValorTanque(double valorCombustivel){
         return capacidadeTanque * valorCombustivel;
     }

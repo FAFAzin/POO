@@ -2,7 +2,7 @@ package com.dio.bootcamp.oo;
 
 public class RodarCodigo {
     public static void main(String[] args) {
-
+        // Objeto para atribuir valores aos atributos
         Carro carro1 = new Carro();
 
         carro1.setCor("Azul");
@@ -14,8 +14,8 @@ public class RodarCodigo {
         System.out.println(carro1.getCapacidadeTanque());
         System.out.println(carro1.totalValorTanque(5.8));
 
-
-        Carro carro2 = new Carro ("Verde", "BMW", 80);
+        // Outra forma de atribuir valores aos atributos
+        Carro carro2 = new Carro("Verde", "BMW", 80);
 
         System.out.println(carro2.getCor());
         System.out.println(carro2.getModelo());
